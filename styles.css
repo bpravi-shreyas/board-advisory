@@ -22,3 +22,10 @@
 .recognition-section{padding:5rem max(5vw,24px);background:#f5f6f8}.award-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.5rem 0}.award-gallery img{width:100%;height:230px;object-fit:cover;border-radius:10px;box-shadow:0 6px 20px #0a16281a}.award-caption{font-size:.85rem;color:#606b7b;margin-bottom:1.4rem}.recognition a{color:inherit}@media(max-width:700px){.award-gallery{grid-template-columns:1fr}.award-gallery img{height:auto}}
 
 .award-gallery-two{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}.award-gallery-two figure{margin:0;background:#fff;border:1px solid #e0e3e8;border-radius:10px;overflow:hidden}.award-gallery-two figure img{display:block;width:100%;height:340px;object-fit:contain;background:#f8f8f8}.award-gallery-two figcaption{padding:12px 15px;color:#29384e;font-size:.91rem}@media(max-width:720px){.award-gallery-two{grid-template-columns:1fr}.award-gallery-two figure img{height:auto;max-height:400px}}
+
+/* Executive portrait — homepage and executive profile */
+.hero-profile-photo{display:block;width:min(100%,255px);height:295px;object-fit:cover;object-position:center 25%;border-radius:12px;border:3px solid var(--gold);box-shadow:0 14px 36px rgba(0,0,0,.20);margin:0 auto 22px}
+.about-photo-wrap{max-width:340px;margin:0 auto 26px;text-align:center}
+.about-profile-photo{display:block;width:190px;height:220px;object-fit:cover;object-position:center 24%;border-radius:12px;border:2px solid var(--gold);box-shadow:0 8px 24px rgba(10,22,40,.13);margin:0 auto 10px}
+.about-photo-caption{font-size:.79rem;line-height:1.4;color:var(--muted);margin:0}
+@media(max-width:700px){.hero-profile-photo{width:205px;height:238px}.about-profile-photo{width:160px;height:190px}}
